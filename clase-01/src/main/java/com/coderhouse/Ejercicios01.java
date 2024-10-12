@@ -92,35 +92,123 @@ public class Ejercicios01 {
        int resultadoResiduo;
        resultadoResiduo = num5 % num6;
        System.out.println("El residuo de esta división es: " + resultadoResiduo);
-/*Ejercicios sobre Operadores Relacionales*/
+       
+/*EJERCICIOS SOBRE OPERADORES RELACIONALES*/
+       
 //Comparar dos enteros y mostrar si el primero es mayor que el segundo.
+       if (num5 > num6) {
+    	   System.out.println(num5 + " es mayor que " + num6);
+    } else {
+     	   System.out.println(num5 + " no es mayor que " + num6);
+   	
+    }
+       
 //Verificar si un número es par usando el operador %.
+       if (num5 % 2 == 0) {
+    	   System.out.println("El número " + num5 + (" es par"));
+       } else {
+    	   System.out.println("El número " + num5 + " no es par");
+       }
+       
 //Comparar dos String para ver si son iguales.
+       String string1 = "Pupi";
+       String string2 = "Rue";
+       if (string1 == string2) {
+    	   System.out.println("Los strings son iguales");
+       } else {
+    	   System.out.println("Los strings no son iguales");
+       }
+       
 //Crear una condición que verifique si un estudiante está aprobado (nota >= 6).
+       int nota = 8;
+       if (nota > 6) {
+    	   System.out.println("El alumno está aprobado");
+       } else {
+    	   System.out.println("El alumno no está aprobado");
+       }
+       
 //Utilizar operadores lógicos para verificar si un número está entre 1 y 10.
-/*Ejercicios sobre Buenas Prácticas*/
+       int num7 = 4;
+       if (num7 >= 1 && num7 <= 10) {
+    	   System.out.println("El número está entre 1 y 10");
+       } else {
+    	   System.out.println("El número no está entre 1 y 10");
+       }
+       
+/*EJERCICIOS SOBRE BUENAS PRÁCTICAS*/
+       
 //Escribir un código que declare variables siguiendo las convenciones de nomenclatura (camelCase).
+       int edadMascota = 9;
+       string nombreMascota = "Pupi";
+       string nombreSegundaMascota = "Rue";
+       
 //Agregar comentarios explicativos a un fragmento de código que declare y utilice variables.
+       double pesoActual = 45d; //uso double para que el resultado se muestre con 2 decimales
+       
 //Refactorizar un código para eliminar variables innecesarias.
+       int variableA = 2;
+       int variableB = 4;
+       int resultado;
+       resultado = variableA + variableB;
+       //podría haberlo hecho directamente así: resultado = 2 + variableB o viceversa       
 //Organizar un código en métodos para mejorar su legibilidad.
+ /*--------------------------------NO ENTENDI ESTOS DOS-----------------------------------------------*/
+       
 //Utilizar nombres descriptivos para las variables en un pequeño programa.
-/*Ejercicios sobre Variables Primitivas y No Primitivas*/
+       String nombreEscuelaPrimaria = "Instituto Bernasconi";
+       String nombreEscuelaSecundaria = "Instituto Inmaculada Concepción";
+       int añoEgresoPrimaria = 2004;
+       int añoEgresoSecundaria = 2010;
+       
+/*EJERCICIOS SOBRE VARIABLES PRIMITIVAS Y NO PRIMITIVAS*/
+       
 //Crear una clase Persona que tenga variables primitivas como edad y altura.
+       class Persona {
+    	   int edad = 30;
+    	   double altura = 1.70;
+       }
+       
 //Declarar un arreglo de String para almacenar los nombres de los días de la semana.
+       String[] diasSemana = {"Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"}
+/*------------------------------------NO ENTENDI----------------------------------------------------------*/
+       
 //Definir un ArrayList<Integer> para almacenar las edades de varios estudiantes.
+       import java.util.ArrayList;
+       ArrayList<Integer> edadEstudiantes = new ArrayList<>();
+       edadEstudiantes.add(15);
+       edadEstudiantes.add(10);
+       edadEstudiantes.add(18);
+       /*----------------------------------------NO ENTIENDO------------------------------------------------*/
+       
 //Crear un objeto de la clase Persona y asignar valores a sus variables.
-/*Ejercicios sobre Componentes del Lenguaje*/
-//Crear un paquete com.ejemplo y dentro de él una clase llamada Ejemplo.
+       /*----------------------------------------NO ENTIENDO------------------------------------------------*/
+       
+/*EJERCICIOS SOBRE COMPONENTES DEL LENGUAJE*/
+       
+//Crear un paquete com.ejemplo y dentro de él una clase llamada Ejemplo. LISTO    
 //Escribir un programa que use múltiples clases y acceda a sus métodos desde una clase principal.
-//Definir un método estático que reciba un int y devuelva su cuadrado.
+//Definir un método estático que reciba un int y devuelva su cuadrado.       
+ /*---------------------------------------------NI IDEA-------------------------------------------------------*/
+       
 //Crear una clase Estudiante con atributos como nombre y nota.
-/*Ejercicios de Integración*/
+       class Estudiante {
+    	   string nombre = "Jorge";
+    	   int nota = 6;
+       }
+       
+/*EJERCICIOS DE INTEGRACIÓN*/
+       
 //Escribir un programa que calcule el área de un círculo usando una constante para PI.
+       double pi1 = 3.14d; 
+       double radio = 5d;
+       double area  = (pi1 * (radio * radio));
+       System.out.println("Área del círculo es: " + area);
+       
+       
 //Crear un programa que determine si un número es primo utilizando operadores relacionales y bucles.
 //Desarrollar un pequeño sistema de gestión de notas que almacene las notas de varios estudiantes y calcule su promedio.
 //Crear una calculadora simple que permita sumar, restar, multiplicar y dividir dos números.
 //Implementar un programa que reciba un String y cuente la cantidad de vocales que tiene.*/
 
-	}
-
-}
+ /*----------------------------YA NO SE DE QUE ME HABLA--------------------------------------------*/
+       
