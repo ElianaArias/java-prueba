@@ -1,7 +1,5 @@
-/*Ejercicios sobre Variables y Tipos de Variables*/
-
-//Crear una variable entera que almacene la edad de un usuario.
-
+Ejercicios sobre Variables y Tipos de Variables
+Crear una variable entera que almacene la edad de un usuario.
 Definir una constante para el número de días en una semana.
 Declarar una variable de tipo double para almacenar el precio de un producto.
 Crear una variable booleana que indique si un estudiante está aprobado o no.
