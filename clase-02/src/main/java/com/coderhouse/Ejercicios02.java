@@ -371,21 +371,21 @@ public class Ejercicios02 {
 	//Simula una adivinanza de un número entre 1 y 10. El usuario ingresa un número y el programa le dice si acertó o no.
 	int numAdivinar = 4;
 	String resultadoAdivinanza = (randon == numAdivinar) ? "Acertó" : "No acertó";
-	System.out.println("Su numero es el " + randon + ": " + resultadoAdivinanza);
+	System.out.println("Bingo || Su numero es el " + randon + ": " + resultadoAdivinanza);
 	
 	//Genera un número aleatorio entre 1 y 50 y verifica si está en el rango de [20, 30].
 	int otroNum = (int) (Math.random()*50) + 1;
-	String resultado7 = (otroNum >20 && otroNum <30) ? " está dentro del rango" : " no está dentro del rango";
+	String resultado7 = (otroNum >20 && otroNum <30) ? " está dentro del rango" : " no está dentro del rango (20-30)";
 		System.out.println("El numero " + otroNum + resultado7);
 	
 //Ejercicios avanzados básicos
 	//Simula un lanzamiento de tres dados y verifica si la suma de los resultados es mayor que 10.
 	int dado1 = (int) (Math.random()*6)+1;
-	System.out.println("El valor del dado1 es " + dado1);
+	System.out.println("Dado1: " + dado1);
 	int dado2 = (int) (Math.random()*6)+1;
-	System.out.println("El valor del dado1 es " + dado2);
+	System.out.println("Dado2: " + dado2);
 	int dado3 = (int) (Math.random()*6)+1;
-	System.out.println("El valor del dado1 es " + dado3);
+	System.out.println("Dado3: " + dado3);
 	boolean sumaDados = (dado1 + dado2 + dado3 > 10) ? true : false;
 	System.out.println("La suma de los 3 dados es mayor que 10?: " + sumaDados);
 	
@@ -412,7 +412,7 @@ public class Ejercicios02 {
 		colorRuleta = "no existe el color";
 		break;
 	}
-	System.out.println("El color del numero " + numRuleta + " es " + colorRuleta);
+	System.out.println("Color elegido: " + colorRuleta);
 	
 	//Calcula el descuento en una tienda dependiendo del tipo de cliente: 1. Normal (sin descuento), 2. Miembro (10% de descuento), 3. VIP (20% de descuento).
 	int numCliente = (int) (Math.random()*3) +1;
@@ -428,11 +428,45 @@ public class Ejercicios02 {
 		descuentoCliente = "VIP: se aplica el 20%";
 		break;
 	}
-	System.out.println("El cliente " + numCliente + " es " + descuentoCliente);
+	System.out.println("El cliente es " + descuentoCliente);
 
 	//Evalúa el clima: genera un número aleatorio y asigna un estado del tiempo (soleado, nublado, lluvioso, nevando).
+	int numClima = (int) (Math.random()*4) +1;
+	String estadoClima = "";
+	switch (numClima) {
+	case 1: 
+		estadoClima = "soleado";
+		break;
+	case 2:
+		estadoClima = "nublado";
+		break;
+	case 3:
+		estadoClima = "lluvioso";
+		break;
+	case 4:
+		estadoClima = "nevando";
+		break;
+	}
+	System.out.println("El estado del clima es: " + estadoClima);
+	
 	//Determina el ganador de un juego de piedra, papel o tijera usando números aleatorios y switch.
+	int numJuego = (int) (Math.random()*3) +1;
+	String tocaJuego = "";
+	switch (numJuego) {
+	case 1: 
+		tocaJuego = "piedra";
+		break;
+	case 2:
+		tocaJuego = "papel";
+		break;
+	case 3:
+		tocaJuego = "tijera";
+		break;
+	}
+	System.out.println("Tu oponente eligió: " + tocaJuego);
 	//Simula un juego de adivinanza: el usuario tiene que adivinar un número entre 1 y 5 generado aleatoriamente.
+	int numAdivinanza = (int) (Math.random()*5) +1;
+	String num = "";
 	//Crea un programa que asigne una beca: si la nota es >= 85 y la edad < 25, el estudiante recibe una beca.
 	//Determina si un número generado aleatoriamente entre 1 y 100 es un número perfecto (la suma de sus divisores propios es igual al número).
 	//Genera dos números aleatorios entre 1 y 100 y muestra cuál es mayor.
