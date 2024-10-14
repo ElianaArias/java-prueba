@@ -160,7 +160,7 @@ public class Clase02 {
 	int maximo = 100;
 	
 	int rango = maximo - minimo +1; /*+1 para que no me de 0*/
-	int randonn = 0; /*inicializamos randon*/
+	int randonn = 1; /*inicializamos randon*/
 	randonn = (int) (Math.random() * rango) + minimo; /**rango para que respete el rango y sumo minimo para que arranque de ahi*/
 	System.out.println("El numero generado es: " + randonn);		
 	}
