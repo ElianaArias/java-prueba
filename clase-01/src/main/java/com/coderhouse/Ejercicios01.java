@@ -7,24 +7,30 @@ public class Ejercicios01 {
 /*EJERCICIOS SOBRE VARIABLES Y TIPOS DE VARIABLES*/
 		
 //Crear una variable entera que almacene la edad de un usuario.
-		byte edad = 10;
-		System.out.println("La edad del usuario es " + edad);
+		int edad = 10;{
+			System.out.println("La edad del usuario es " + edad);
+
+		}
 		
 //Definir una constante para el número de días en una semana.
-		final int dias = 7;
+		final int dias = 7; {
 		System.out.println("El número de días en una semana es " + dias);
+		}
 		
 //Declarar una variable de tipo double para almacenar el precio de un producto.
-		double precio = 4.99d;
+		double precio = 4.99d; {
 		System.out.println("El precio de este producto es " + precio);
+		}
 		
 //Crear una variable booleana que indique si un estudiante está aprobado o no.
-		boolean aprobado = true;
+		boolean aprobado = true;{
 		System.out.println("El estudiante está aprobado? " + aprobado);
+		}
 		
 //Utilizar una variable de tipo char para almacenar la inicial del nombre de una persona.
-		char inicialNombre = 'A';
-		System.out.println("Inicial del nombre de la persona es " + inicialNombre);
+		char inicialNombre = 'A';{
+			System.out.println("Inicial del nombre de la persona es " + inicialNombre);
+		}
 		
 //Crear un arreglo de enteros que almacene las notas de 5 estudiantes.
 		int[] notasEstudiantes = {85, 90, 78, 88, 92};
@@ -36,22 +42,26 @@ public class Ejercicios01 {
 //-------------------------------------ESTE NO LO ENTENDI-----------------------------------//
         
 //Definir una variable de tipo String que almacene el nombre completo de una persona.
-        String nombre = "Juan Perez";
+        String nombre = "Juan Perez";{
         System.out.println("Nombre completo: " + nombre);
+        }
         
 //Crear una variable float para almacenar el peso de una persona.
-        float peso = 45f;
+        float peso = 45f;{
         System.out.println("Peso de la persona: " + peso + "kg");
+        }
         
 /*EJERCICIOS SOBRE CONSTANTES*/
         
 //Declarar una constante para representar el número PI (3.14).
-       final double pi = 3.14d;
+       final double pi = 3.14d;{
        System.out.println("Valor de pi: " + pi);
+       }
        
 //Crear una constante que contenga el valor máximo de estudiantes en un aula.
-       final byte maxEstudiantes = 30;
+       final byte maxEstudiantes = 30;{
        System.out.println("Máximo de estudiantes en un aula: " + maxEstudiantes);
+       }
        
 /*EJERCICIOS SOBRE OPERADORES*/
        
@@ -59,22 +69,25 @@ public class Ejercicios01 {
        int numero1 = 2;
        int numero2 = 4; 
        int resultado;
-       resultado = numero1 + numero2;
+       resultado = numero1 + numero2; {
        System.out.println("El resultado de la suma es: " + resultado);
+       }
        
 //Restar dos números de tipo double y mostrar el resultado.
        double num1 = 10d;
        double num2 = 5d;
        double resultadoResta;
-       resultadoResta = num1 - num2;
+       resultadoResta = num1 - num2;{
        System.out.println("El resultado de la resta es: " + resultadoResta);
+       }
        
 //Multiplicar dos números y mostrar el resultado en pantalla.
        int num3 = 4;
        int num4 = 5;
        int resultadoMultipl;
-       resultadoMultipl = num3 * num4;
+       resultadoMultipl = num3 * num4; {
        System.out.println("El resultado de la multiplicación es: " + resultadoMultipl);
+       }
        
 //Dividir dos números y manejar la excepción de división por cero (es decir, qué pasa si divido por 0
        int num5 = 10;
@@ -90,8 +103,9 @@ public class Ejercicios01 {
        
 //Usar el operador % para encontrar el residuo de una división.ej: 10/3=3. el residuo es 1
        int resultadoResiduo;
-       resultadoResiduo = num5 % num6;
+       resultadoResiduo = num5 % num6;{
        System.out.println("El residuo de esta división es: " + resultadoResiduo);
+       }
        
 /*EJERCICIOS SOBRE OPERADORES RELACIONALES*/
        
@@ -139,8 +153,8 @@ public class Ejercicios01 {
        
 //Escribir un código que declare variables siguiendo las convenciones de nomenclatura (camelCase).
        int edadMascota = 9;
-       string nombreMascota = "Pupi";
-       string nombreSegundaMascota = "Rue";
+       String nombreMascota = "Pupi";
+       String nombreSegundaMascota = "Rue";
        
 //Agregar comentarios explicativos a un fragmento de código que declare y utilice variables.
        double pesoActual = 45d; //uso double para que el resultado se muestre con 2 decimales
@@ -192,7 +206,7 @@ public class Ejercicios01 {
        
 //Crear una clase Estudiante con atributos como nombre y nota.
        class Estudiante {
-    	   string nombre = "Jorge";
+    	   String nombre = "Jorge";
     	   int nota = 6;
        }
        
@@ -201,8 +215,9 @@ public class Ejercicios01 {
 //Escribir un programa que calcule el área de un círculo usando una constante para PI.
        double pi1 = 3.14d; 
        double radio = 5d;
-       double area  = (pi1 * (radio * radio));
+       double area  = (pi1 * (radio * radio));{
        System.out.println("Área del círculo es: " + area);
+       }
        
        
 //Crear un programa que determine si un número es primo utilizando operadores relacionales y bucles.
@@ -211,4 +226,5 @@ public class Ejercicios01 {
 //Implementar un programa que reciba un String y cuente la cantidad de vocales que tiene.*/
 
  /*----------------------------YA NO SE DE QUE ME HABLA--------------------------------------------*/
-       
+	}   
+}
