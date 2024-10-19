@@ -143,7 +143,7 @@ public class Clase03 {
 		//System.out.println("La cantidad de elementos de listaDeNombres luego de iterar es: " + listaDeNombres.size());
 
 
-	/*iterable: vamos a iterar la lista, que en realidad es lo que ya veniamos haciendo*/
+	/*for each: vamos a iterar la lista, que en realidad es lo que ya veniamos haciendo*/
 		for (String nombre : listaDeNombres) { /*por cada noomre de lista de nombres, imprimime algo*/
 			System.out.println("Nombre: " + nombre);
 		}
