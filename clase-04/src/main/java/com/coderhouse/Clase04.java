@@ -6,7 +6,7 @@ public class Clase04 {
 
 	public static void main(String[] args) throws Exception {
 		
-//TODO LO QUE ESTÁ COMENTADO Y TIENE LLAVES, OJO! PORQUE PUEDEN ESTAR REPETIDAS AFUERA PARA QUE FUNCIONE EL CÓDIGO		
+//DE ACÁ PARA ABAJO, TODO LO QUE ESTÁ COMENTADO Y TIENE LLAVES, OJO! PORQUE PUEDEN ESTAR REPETIDAS AFUERA PARA QUE FUNCIONE EL CÓDIGO		
 		  
 
 /*--------------------------------------------------------------------------------------------------
