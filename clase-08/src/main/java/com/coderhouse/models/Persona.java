@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
 
-@Entity
+//@Entity
 public class Persona {
 
 	@Id //con esto digo que es primary key. debe ser incremental y no nulo
@@ -17,7 +17,7 @@ public class Persona {
 	private Long id;
 	
 	
-	@Column(name = "nombre")
+	@Column(name = "nombre") //esto no es necesario porque abajo ya le dije que empiece con nombre. Pero sirve si quisiera ponerle un alias o cambiar una mayus o agregar palabras
 	private String nombre;
 	
 	//ahora le digo cómo se van a relacionar y creo la col pasaporte
