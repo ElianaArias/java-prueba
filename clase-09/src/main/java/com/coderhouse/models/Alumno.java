@@ -1,4 +1,4 @@
-package com.coderhouse.modelos;
+package com.coderhouse.models;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -27,8 +27,10 @@ public class Alumno {
 	@Column(unique = true, nullable = false)
 	private String legajo;
 	
-	@ManyToMany(mappedBy = "alumnos", fetch = FetchType.EAGER)//tenemos esta relacion
-	
+	@ManyToMany(
+			mappedBy = "alumnos", 
+			fetch = FetchType.EAGER//tenemos esta relacion
+			)
 	private List<Curso> cursos = new ArrayList<>();//que va a traer una lista de cursos
 	//es decir, alumnos va a mapearse con cursos
 	
@@ -44,7 +46,7 @@ public class Alumno {
 	}	
 
 	
-	//y desp cocn public fields. al crearlo no tilde todo pero le estoy pasando mas atributos que a cursos
+	//y desp cocn public fields. al crearlo no tilde todo
 	public Alumno(String nombre, String apellido, int dni, String legajo) {
 		super();
 		this.nombre = nombre;

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.coderhouse</groupId>
-	<artifactId>clase-09</artifactId>
+	<artifactId>clase-10</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>clase-09</name>
+	<name>clase-10</name>
 	<description>Mi primer app en Spring Boot</description>
 	<url/>
 	<licenses>
