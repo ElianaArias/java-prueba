@@ -159,21 +159,23 @@ public class Ejercicios01 {
 //Agregar comentarios explicativos a un fragmento de código que declare y utilice variables.
        double pesoActual = 45d; //uso double para que el resultado se muestre con 2 decimales
        
-//Refactorizar un código para eliminar variables innecesarias.
+/*Refactorizar un código para eliminar variables innecesarias.
        int variableA = 2;
        int variableB = 4;
        int resultado;
        resultado = variableA + variableB;
        //podría haberlo hecho directamente así: resultado = 2 + variableB o viceversa       
+        
+        */
 //Organizar un código en métodos para mejorar su legibilidad.
  /*--------------------------------NO ENTENDI ESTOS DOS-----------------------------------------------*/
        
-//Utilizar nombres descriptivos para las variables en un pequeño programa.
+/*Utilizar nombres descriptivos para las variables en un pequeño programa.
        String nombreEscuelaPrimaria = "Instituto Bernasconi";
        String nombreEscuelaSecundaria = "Instituto Inmaculada Concepción";
        int añoEgresoPrimaria = 2004;
        int añoEgresoSecundaria = 2010;
-       
+       */
 /*EJERCICIOS SOBRE VARIABLES PRIMITIVAS Y NO PRIMITIVAS*/
        
 //Crear una clase Persona que tenga variables primitivas como edad y altura.
@@ -183,15 +185,15 @@ public class Ejercicios01 {
        }
        
 //Declarar un arreglo de String para almacenar los nombres de los días de la semana.
-       String[] diasSemana = {"Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"}
+       String[] diasSemana = {"Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"};
 /*------------------------------------NO ENTENDI----------------------------------------------------------*/
        
-//Definir un ArrayList<Integer> para almacenar las edades de varios estudiantes.
-       import java.util.ArrayList;
-       ArrayList<Integer> edadEstudiantes = new ArrayList<>();
+/*Definir un ArrayList<Integer> para almacenar las edades de varios estudiantes.  
+   		ArrayList<Integer> edadEstudiantes = new ArrayList<>();
        edadEstudiantes.add(15);
        edadEstudiantes.add(10);
        edadEstudiantes.add(18);
+       
        /*----------------------------------------NO ENTIENDO------------------------------------------------*/
        
 //Crear un objeto de la clase Persona y asignar valores a sus variables.

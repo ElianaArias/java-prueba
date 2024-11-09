@@ -1,6 +1,5 @@
 package com.coderhouse;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,9 +37,9 @@ public class Clase09Application implements CommandLineRunner{
 			Curso curso2 = new Curso("CSS", categoria1);
 			Curso curso3 = new Curso("Java", categoria2);
 			
-			Alumno alumno1 = new Alumno("Eliana", "Arias", 13131313, "EA131313"); //o simplemente puedo pasarle los parametros con getters y setters
-			Alumno alumno2 = new Alumno("Agustin", "Barraza", 12121212, "AB12121212"); 
-			Alumno alumno3 = new Alumno("Bruno", "Lezama", 15151515, "BL1515151513");
+			Alumno alumno1 = new Alumno("Eliana", "Arias", 13131313, "L13131313"); //o simplemente puedo pasarle los parametros con getters y setters
+			Alumno alumno2 = new Alumno("Agustin", "Barraza", 12121212, "L12121212"); 
+			Alumno alumno3 = new Alumno("Bruno", "Lezama", 15151515, "L15151515");
 
 			/*dejo comentado los create para que no vuelva a crearme todo
 			//para que las tablas no me aparezcan vacias, uso dao para crear alumnos cursos y categorias:
